@@ -1,7 +1,7 @@
 # YouTube-API_Project1:
 ![image](https://github.com/Poojamotekar/YouTube-API_Project1-/assets/66488693/f9350f21-0f1a-4da6-82b0-37742f2064b6)
 
-# Exploratory Data Analysing Using Youtube Video Data from Most Popular Data Science Channels
+# Exploratory Data Analysing Using Youtube Video Data from Most Popular Channels
 # 1. Aims, objectives and background
 ### 1.1. Introduction
 Founded in 2005, Youtube has grown to become the second largest search engine in the world (behind Google) that processes more than 3 billion searches per month. [1]. It is, however, generally a myth how the Youtube algorithm works, what makes a video get views and be recommended over another. In fact, YouTube has one of the largest scale and most sophisticated industrial recommendation systems in existence [2]. For new content creators, it is a challenge to understand why a video gets video and others do not. There are many "myths" around the success of a Youtube video [3], for example if the video has more likes or comments, or if the video is of a certain duration. It is also worth experimenting and looking for "trends" in the topics that Youtube channels are covering in a certain niche.
