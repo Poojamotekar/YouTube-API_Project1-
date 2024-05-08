@@ -37,3 +37,13 @@ The dataset is a real-world dataset and suitable for the research. My definition
 According to Youtube API's guide, the usage of Youtube API is free of charge given that your application send requests within a quota limit. "The YouTube Data API uses a quota to ensure that developers use the service as intended and do not create applications that unfairly reduce service quality or limit access for others. " The default quota allocation for each application is 10,000 units per day, and you could request additional quota by completing a form to YouTube API Services if you reach the quota limit.
 
 Since all data requested from Youtube API is public data (which everyone on the Internet can see on Youtube), there is no particular privacy issues as far as I am concerned. In addition, the data is obtained only for research purposes in this case and not for any commercial interests.
+
+# Data Visualization
+![tag vs view](https://github.com/Poojamotekar/YouTube-API_Project1-/assets/66488693/bb4dde59-85bf-4d87-b8a2-5341a64cfeca)
+![title](https://github.com/Poojamotekar/YouTube-API_Project1-/assets/66488693/4ad43529-a89b-48ad-9301-de34856aa897)
+![upload](https://github.com/Poojamotekar/YouTube-API_Project1-/assets/66488693/9428dd3e-a200-45e1-95fc-b845df571df0)
+![view vs like and commentcount](https://github.com/Poojamotekar/YouTube-API_Project1-/assets/66488693/0d01d7c8-f0f2-47ce-b0e3-8317eb2d2c3b)
+
+
+
+
