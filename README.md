@@ -16,26 +16,22 @@ Does the video duration matter for views and interaction (likes/ comments)?
 Does title length matter for views?
 How many tags do good performing videos have? What are the common tags among these videos?
 Across all the creators I take into consideration, how often do they upload new videos? On which days in the week?
-Explore the trending topics using NLP techniques
 Which popular topics are being covered in the videos (e.g. using wordcloud for video titles)?
 Which questions are being asked in the comment sections in the videos
+
 ### 1.3. Steps of the project
-Obtain video meta data via Youtube API for the top 10-15 channels in the data science niche (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
+Obtain video meta data via Youtube API for the channels (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
 Prepocess data and engineer additional features for analysis
 Exploratory data analysis
 Conclusions
+
 ### 1.4. Dataset
 Data selection
-As this project is particularly focused on data science channels, I found that not many readily available datasets online are suitable for this purpose. The 2 alternative datasets I found are:
-
-The top trending Youtube videos on Kaggle: This dataset contains several months of data on daily trending YouTube videos for several countries. There are up to 200 trending videos per day. However, this dataset is not fit for this project because the trending videos are about a wide range of topics that are not necessarily related to data science.
-
-Another dataset is obtained from this Github repo of Vishwanath Seshagiri, which is the metadata of 0.5M+ YouTube videos along with their channel data. There is no clear documentation on how this dataset was created, but a quick look at the datasets in the repository suggested that the data was obtained using keyword search of popular keywords such as "football" or "science". There are also some relevant keywords such as "python". However, I decided not to use these datasets because they don't contain data for the channels I am interested in.
-
+As this project is particularly focused on Youtube channels, I found that not many readily available datasets online are suitable for this purpose. 
 I created my own dataset using the Google Youtube Data API version 3.0. The exact steps of data creation is presented in section 2. Data Creation below.
 
 # Data limitations
-The dataset is a real-world dataset and suitable for the research. However, the selection of the top 10 Youtube channels to include in the research is purely based on my knowledge of the channels in data science field and might not be accurate. My definition is "popular" is only based on subscriber count but there are other metrics that could be taken into consideration as well (e.g. views, engagement). The top 10 also seems arbitrary given the plethora of channels on Youtube. There might be smaller channels that might also very interesting to look into, which could be the next step of this project.
+The dataset is a real-world dataset and suitable for the research. My definition is "popular" is only based on subscriber count but there are other metrics that could be taken into consideration as well (e.g. views, engagement). The top 10 also seems arbitrary given the plethora of channels on Youtube. There might be smaller channels that might also very interesting to look into, which could be the next step of this project.
 
 # Ethics of data source
 According to Youtube API's guide, the usage of Youtube API is free of charge given that your application send requests within a quota limit. "The YouTube Data API uses a quota to ensure that developers use the service as intended and do not create applications that unfairly reduce service quality or limit access for others. " The default quota allocation for each application is 10,000 units per day, and you could request additional quota by completing a form to YouTube API Services if you reach the quota limit.
