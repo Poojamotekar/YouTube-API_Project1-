@@ -3,10 +3,10 @@
 
 # Exploratory Data Analysing Using Youtube Video Data from Most Popular Data Science Channels
 # 1. Aims, objectives and background
-## 1.1. Introduction
+### 1.1. Introduction
 Founded in 2005, Youtube has grown to become the second largest search engine in the world (behind Google) that processes more than 3 billion searches per month. [1]. It is, however, generally a myth how the Youtube algorithm works, what makes a video get views and be recommended over another. In fact, YouTube has one of the largest scale and most sophisticated industrial recommendation systems in existence [2]. For new content creators, it is a challenge to understand why a video gets video and others do not. There are many "myths" around the success of a Youtube video [3], for example if the video has more likes or comments, or if the video is of a certain duration. It is also worth experimenting and looking for "trends" in the topics that Youtube channels are covering in a certain niche.
 
-## 1.2. Aims and objectives
+### 1.2. Aims and objectives
 Within this project, I would like to explore the following:
 
 Getting to know Youtube API and how to obtain video data.
@@ -19,12 +19,12 @@ Across all the creators I take into consideration, how often do they upload new 
 Explore the trending topics using NLP techniques
 Which popular topics are being covered in the videos (e.g. using wordcloud for video titles)?
 Which questions are being asked in the comment sections in the videos
-## 1.3. Steps of the project
+### 1.3. Steps of the project
 Obtain video meta data via Youtube API for the top 10-15 channels in the data science niche (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
 Prepocess data and engineer additional features for analysis
 Exploratory data analysis
 Conclusions
-## 1.4. Dataset
+### 1.4. Dataset
 Data selection
 As this project is particularly focused on data science channels, I found that not many readily available datasets online are suitable for this purpose. The 2 alternative datasets I found are:
 
