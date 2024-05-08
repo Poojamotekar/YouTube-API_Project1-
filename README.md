@@ -28,7 +28,7 @@ Conclusions
 ### 1.4. Dataset
 Data selection
 As this project is particularly focused on Youtube channels, I found that not many readily available datasets online are suitable for this purpose. 
-I created my own dataset using the Google Youtube Data API version 3.0. The exact steps of data creation is presented in section 2. Data Creation below.
+I created my own dataset using the Google Youtube Data API version 3.0.
 
 # Data limitations
 The dataset is a real-world dataset and suitable for the research. My definition is "popular" is only based on subscriber count but there are other metrics that could be taken into consideration as well (e.g. views, engagement). The top 10 also seems arbitrary given the plethora of channels on Youtube. There might be smaller channels that might also very interesting to look into, which could be the next step of this project.
